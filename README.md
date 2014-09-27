@@ -2,7 +2,7 @@ SWARM-BOT5000
 ===========================
 Tour friendly neighborhood anonymous tweet bot. 
 
-Simply connect a Twitter account through OAuth and a Widget, deploy, and let anyone on the internet tweet from it anonymously. Super fun at parties. 
+Simply connect a Twitter account through OAuth and a Widget, deploy, and let anyone on the internet tweet from it anonymously. Super fun at parties. Give it a spin at http://swarmnyc.com/experiments/twitter-anonymous-tweet-bot
 
 This Tweetbot is a SWARM experiment - head to http://swarmnyc.com/expriments to see what else we've been up to. 
 
