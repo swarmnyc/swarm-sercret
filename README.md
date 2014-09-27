@@ -12,7 +12,7 @@ This Tweetbot is a SWARM experiment - head to http://swarmnyc.com/expriments to 
 
 Deploy & tweet anonymously. 
 
-3. You can also set up kickback.php but we'd love the twitter mention. 
+ALSO: You can set up kickback.php to auto include content in thse anon-tweets but we'd love it if you kept the twitter mention. 
 
 Enjoy!!!!! 
 
