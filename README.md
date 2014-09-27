@@ -1,8 +1,8 @@
-SWARM-BOT5000
+SWARMsecret
 ===========================
-Tour friendly neighborhood anonymous tweet bot. 
+Your friendly neighborhood anonymous tweet web app. 
 
-Simply connect a Twitter account through OAuth and a Widget, deploy, and let anyone on the internet tweet from it anonymously. Super fun at parties. Give it a spin at http://swarmnyc.com/experiments/twitter-anonymous-tweet-bot
+Simply connect a Twitter account through OAuth (config.php) and import ad Feed Widget data-widget-id (pummle.php), deploy, and let anyone on the internet tweet from it anonymously. Super fun at parties. Give it a spin at http://swarmnyc.com/experiments/swarm-secret-anonymous-twitter/
 
 For our other experiments head to http://swarmnyc.com/expriments 
 
@@ -16,4 +16,6 @@ ALSO: You can set up kickback.php to auto include content in thse anon-tweets bu
 
 Enjoy!!!!! 
 
-*** NOTES -- this was put together for funsies, there are bugs, namely mobile CSS issues I didn't feel like fixing, if anyone would like to take care of those it'd be butter. Also, the code isn't exactly wopnderful, but hey. It works. 
+*** NOTES -- this was put together for funsies, there are bugs, namely mobile CSS issues I didn't feel like fixing, if anyone would like to take care of those it'd be butter. 
+
+Also, the code isn't spectacular, but hey. It works. 
