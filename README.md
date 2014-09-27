@@ -4,7 +4,7 @@ Tour friendly neighborhood anonymous tweet bot.
 
 Simply connect a Twitter account through OAuth and a Widget, deploy, and let anyone on the internet tweet from it anonymously. Super fun at parties. Give it a spin at http://swarmnyc.com/experiments/twitter-anonymous-tweet-bot
 
-This Tweetbot is a SWARM experiment - head to http://swarmnyc.com/expriments to see what else we've been up to. 
+For our other experiments head to http://swarmnyc.com/expriments 
 
 <h2>INSTALL INSTRUCTIONS</h2>
 <p>1. Set up config.php</p>
