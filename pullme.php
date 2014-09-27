@@ -1,11 +1,11 @@
-<!-- WHAT YOU WANT TO DO IS GO AHEAD AND CREATE A TWITTER WIDGET, THE BELOW SCRIPT WILL OULL OUT THE TWEETS AND PLACE THEM IN THE BODY OF THIS PAGE 
+<!-- WHAT YOU WANT TO DO IS GO AHEAD AND CREATE A TWITTER FEED WIDGET, THE BELOW SCRIPT WILL PULL OUT THE TWEETS AND PLACE THEM IN THE BODY OF THIS PAGE 
 	    
-	   YOUR TWITTER WIDGET CODE SHOULD LOOK LIKE THIS 
+	   !! -> YOUR TWITTER WIDGET CODE SHOULD LOOK LIKE THIS  
 	   
 	    <a class="twitter-timeline" href="https://twitter.com/SwarmBOT5000" data-widget-id="NUMBER">Tweets by @SwarmBOT5000</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	    
-	    IDENTIFY THE data-widget-id VARIABLE AND PUT IT INTO LINE 23 REPLACING THE ENTIRITY OF NUMBER FROM LINE 5. 
+	    IDENTIFY THE data-widget-id VARIABLE AND PUT IT INTO LINE 23 REPLACING THE ENTIRITY: NUMBER. 
     -->
     
      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -20,5 +20,5 @@ h[a]+'" class="twitter_fav_icon">Favorite</a></p>');c.push(b);a++}if(null==w){e=
 
 
 // THIS IS WHERE YOU PUT IN THE FIRST PARAMETER - AKA data-widget-id
-twitterFetcher.fetch('NUMBER FROM LINE 5', 'tweets', 20, true, false, false);
+twitterFetcher.fetch('NUMBER', 'tweets', 20, true, false, false);
 </script> 
