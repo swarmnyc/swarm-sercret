@@ -1,0 +1,268 @@
+body{
+	background-color: #fcf5e6; 
+}
+#thankPageBody{
+	background-image: url(../img/background-whispers.jpg);
+	background-repeat: repeat-y;
+	background-position: top left;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #fff;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/**********************************
+		INDEX PAGE STYLE
+***********************************/
+#emailSubmitWrapper{
+	margin: 0;
+	width: 500px;
+}
+#emailSubmitWrapper .form-inline{
+	margin-bottom: 40px;
+}
+.logo{
+	text-align: center;
+
+}
+.logo .logo-text{
+	font-size:20px;
+	font-family: 'Avenir Next', sans-serif;
+	color: #fcf5e6;
+	text-align: center;
+	margin-bottom: -30px;
+}
+.logo .logo-desc{
+	font-size: 13px;
+	font-family: 'Avenir Next', sans-serif;
+	text-align: center;
+	color: #fcf5e6;
+}
+
+.whitey {color: white; font-style: italic;}
+
+#fieldEmail{
+	width: 356px;
+	font-size: 17px;
+	color: white;
+	float: left;
+	font-family: 'Avenir Next', sans-serif;
+}
+#emailSubmitForm button[type="submit"]{
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 14px;
+	width: 120px;
+}
+.index-intro{
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 18px;
+	margin: 0;
+}
+#idxSneekPeek{
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 15px;
+}
+#tweets{
+	width: 100%; 
+	position: relative;
+	padding-bottom: 1px;
+	margin-bottom: 80px;
+}
+#idxBody #tweets:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 60%;
+	position: absolute;
+	bottom: 0;
+	/*linear-gradient*/
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(rgba(0,0,0,0),0.25),color-stop(rgba(0, 0, 0, 0),0.31),color-stop(rgba(0, 0, 0, 1),0.94),color-stop(rgba(0, 0, 0, 0),1));
+	/*@@prefixmycss->No equivalent*/
+	background:-webkit-linear-gradient(to bottom, rgba(0,0,0,0) 25%,rgba(0, 0, 0, 0) 31%,rgba(0, 0, 0, 1) 94%,rgba(0, 0, 0, 0) 100%);
+	background:   -moz-linear-gradient(to bottom, rgba(0,0,0,0) 25%,rgba(0, 0, 0, 0) 31%,rgba(0, 0, 0, 1) 94%,rgba(0, 0, 0, 0) 100%);
+	background:     -o-linear-gradient(to bottom, rgba(0,0,0,0) 25%,rgba(0, 0, 0, 0) 31%,rgba(0, 0, 0, 1) 94%,rgba(0, 0, 0, 0) 100%);
+	background:        linear-gradient(to bottom, rgba(0,0,0,0) 25%,rgba(0, 0, 0, 0) 31%,rgba(0, 0, 0, 1) 94%,rgba(0, 0, 0, 0) 100%);
+}
+#tweets ul{
+	padding-left: 20px;
+}
+#thankPageBody #tweets ul{
+	padding-left: 0;
+}
+#tweets ul li{
+	padding-left: 120px;
+	position: relative;
+	min-height: 100px;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+#tweets ul li:after{
+	content: "";
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#tweets ul li:last-child{
+	margin-bottom: 40px;
+}
+#tweets ul li:nth-child(12n+1):after{
+	background-image: url(../img/icon1.jpg);
+}
+#tweets ul li:nth-child(12n+2):after{
+	background-image: url(../img/icon4.jpg);
+}
+#tweets ul li:nth-child(12n+3):after{
+	background-image: url(../img/icon7.jpg);
+}
+#tweets ul li:nth-child(12n+4):after{
+	background-image: url(../img/icon2.jpg);
+}
+#tweets ul li:nth-child(12n+5):after{
+	background-image: url(../img/icon5.jpg);
+}
+#tweets ul li:nth-child(12n+5):after{
+	background-image: url(../img/icon8.jpg);
+}
+#tweets ul li:nth-child(12n+6):after{
+	background-image: url(../img/icon3.jpg);
+}
+#tweets ul li:nth-child(12n+7):after{
+	background-image: url(../img/icon6.jpg);
+}
+#tweets ul li:nth-child(12n+8):after{
+	background-image: url(../img/icon9.jpg);
+}
+#tweets ul li:nth-child(12n+9):after{
+	background-image: url(../img/icon12.jpg);
+}
+#tweets ul li:nth-child(12n+10):after{
+	background-image: url(../img/icon10.jpg);
+}
+#tweets ul li:nth-child(12n+11):after{
+	background-image: url(../img/icon9.jpg);
+}
+#tweets ul li:nth-child(12n+12):after{
+	background-image: url(../img/icon11.jpg);
+}
+
+
+}
+.contain-main{
+	width: 600px;
+}
+.contain-main2{
+	width: 500px; margin: 0 auto;
+}
+#thankPageTweetForm textarea{
+	font-family: 'Avenir Next', sans-serif;
+	background: #eaa59e;
+	border: 1px solid #eaa59e;
+	width: 100%;
+	padding: 20px;
+	color: #fcf5e6;
+	font-size: 16px;
+	resize: none;
+	float: left;
+	width: 71%;
+	height: 100px;
+	padding-top: 15px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#thankPageTweetForm button[type="submit"]{
+	font-family: 'Avenir Next',sans-serif;
+	width: 120px;
+	height: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	float: left;
+}
+.tweet{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+
+@media (max-width: 499px) {
+	.container {margin-right: auto;margin-left: auto;}
+	
+	#emailSubmitWrapper{
+		width: 320px;
+	}
+	#thankPageBody .contain-main{
+		width: 320px;
+	}
+	#thankPageTweetForm textarea{
+	font-family: 'Avenir Next', sans-serif;
+	background: #eaa59e;
+	border: 1px solid #eaa59e;
+	width: 100%;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	resize: none;
+	float: left;
+	height: 100px;
+	padding-top: 15px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;}
+	.righton {float: right; margin-top: 10px;}
+	.footer {display: none;}
+	.wrapitup {border-left: 0px solid #eaa59e; border-right: 0px solid #eaa59e;border-top: 0px solid #eaa59e; padding: 00px; margin-top: 20px;}
+	
+	.logo .logo-text{
+	font-size:20px;
+	font-family: 'Avenir Next', sans-serif;
+	color: #fcf5e6;
+	text-align: center;
+	margin-bottom: 10px;}
+	
+	.spacer {height: 20px;}
+	#tweets ul li {
+		padding-left: 120px;
+		position: relative;
+		min-height: 100px;
+		font-size: 17px;
+		margin-bottom: 20px;}
+
+#thankPageTweetForm button[type="submit"]{
+	font-family: 'Avenir Next',sans-serif;
+	width: 120px;
+	height: 60px;
+	margin-right: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;}
+
+.footer{background-color: #eaa59e; height: 40px; width: 100%; max-width:720px; padding: 5px; margin: 0 auto;}
+.swarm{text-align: center; color: #ccc; font-family: 'Avenir Next', sans-serif; color:#fcf5e6; padding-top: 5px; }
+
+
+}
+
+@media (max-width: 400px) {
+	
+}
