@@ -1,23 +1,17 @@
-body{
-	background-color: #fcf5e6; 
-}
-#thankPageBody{
-	background-image: url(../img/background-whispers.jpg);
-	background-repeat: repeat-y;
-	background-position: top left;
-	background-size: 100% auto;
-	background-attachment: fixed;
+body{background-color: #e6522e;}
+#thankPageBody{background-image: url(../img/background-whispers.jpg);background-repeat: repeat-y;background-position: top left;background-size: 100% auto;background-attachment: fixed;
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #fff;
+    opacity: .8;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     color:    #fff;
-    opacity:  1;
+    opacity:  .8;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
     color:    #fff;
-    opacity:  1;
+    opacity:  .8;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #fff;
@@ -28,6 +22,7 @@ textarea:focus,
 button:focus {
     outline: none;
 }
+
 /**********************************
 		INDEX PAGE STYLE
 ***********************************/
@@ -40,6 +35,7 @@ button:focus {
 }
 .logo{
 	text-align: center;
+	margin-bottom: 20px;
 
 }
 .logo .logo-text{
@@ -56,7 +52,7 @@ button:focus {
 	color: #fcf5e6;
 }
 
-.whitey {color: white; font-style: italic;}
+.whitey {color: #fff; font-weight: bold; text-transform: uppercase; text-decoration: underline;}
 
 #fieldEmail{
 	width: 356px;
@@ -83,7 +79,7 @@ button:focus {
 	width: 100%; 
 	position: relative;
 	padding-bottom: 1px;
-	margin-bottom: 80px;
+	margin-bottom: -20px;
 }
 #idxBody #tweets:after {
 	content: "";
@@ -125,50 +121,46 @@ button:focus {
 #tweets ul li:last-child{
 	margin-bottom: 40px;
 }
-#tweets ul li:nth-child(12n+1):after{
+#tweets ul li:nth-child(11n+1):after{
 	background-image: url(../img/icon1.jpg);
 }
-#tweets ul li:nth-child(12n+2):after{
-	background-image: url(../img/icon4.jpg);
-}
-#tweets ul li:nth-child(12n+3):after{
-	background-image: url(../img/icon7.jpg);
-}
-#tweets ul li:nth-child(12n+4):after{
-	background-image: url(../img/icon2.jpg);
-}
-#tweets ul li:nth-child(12n+5):after{
-	background-image: url(../img/icon5.jpg);
-}
-#tweets ul li:nth-child(12n+5):after{
-	background-image: url(../img/icon8.jpg);
-}
-#tweets ul li:nth-child(12n+6):after{
-	background-image: url(../img/icon3.jpg);
-}
-#tweets ul li:nth-child(12n+7):after{
+#tweets ul li:nth-child(11n+2):after{
 	background-image: url(../img/icon6.jpg);
 }
-#tweets ul li:nth-child(12n+8):after{
+#tweets ul li:nth-child(11n+3):after{
+	background-image: url(../img/icon4.jpg);
+}
+#tweets ul li:nth-child(11n+4):after{
+	background-image: url(../img/icon2.jpg);
+}
+#tweets ul li:nth-child(11n+5):after{
+	background-image: url(../img/icon5.jpg);
+}
+#tweets ul li:nth-child(11n+6):after{
+	background-image: url(../img/icon8.jpg);
+}
+#tweets ul li:nth-child(11n+7):after{
+	background-image: url(../img/icon3.jpg);
+}
+#tweets ul li:nth-child(11n+8):after{
+	background-image: url(../img/icon7.jpg);
+}
+#tweets ul li:nth-child(11n+9):after{
 	background-image: url(../img/icon9.jpg);
 }
-#tweets ul li:nth-child(12n+9):after{
-	background-image: url(../img/icon12.jpg);
-}
-#tweets ul li:nth-child(12n+10):after{
+#tweets ul li:nth-child(11n+10):after{
 	background-image: url(../img/icon10.jpg);
 }
-#tweets ul li:nth-child(12n+11):after{
-	background-image: url(../img/icon9.jpg);
-}
-#tweets ul li:nth-child(12n+12):after{
+#tweets ul li:nth-child(11n+11):after{
 	background-image: url(../img/icon11.jpg);
 }
+
 
 
 }
 .contain-main{
 	width: 600px;
+	z-index: 9999;
 }
 .contain-main2{
 	width: 500px; margin: 0 auto;
@@ -263,6 +255,4 @@ button:focus {
 
 }
 
-@media (max-width: 400px) {
-	
-}
+
