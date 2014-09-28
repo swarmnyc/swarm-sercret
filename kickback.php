@@ -4,7 +4,7 @@
       jQuery(document).ready(function($) {
         $('#thankPageTweetSubmit').click(function(event) {
           var status = $("#thankPageTweetForm textarea").val();
-          status += 'w/ @swarmnyc';
+          status += 'by @swarmnyc';
           $.ajax({
             url: 'index.php',
             type: 'POST',
