@@ -2,7 +2,7 @@
 	    
 	   !! -> YOUR TWITTER WIDGET CODE SHOULD LOOK LIKE THIS  
 	   
-	    <a class="twitter-timeline" href="https://twitter.com/SwarmBOT5000" data-widget-id="NUMBER">Tweets by @SwarmBOT5000</a>
+	    <a class="twitter-timeline" href="https://twitter.com/SWARMNYC" data-widget-id="NUMBER">Tweets by @SWARMNYC</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	    
 	    IDENTIFY THE data-widget-id VARIABLE AND PUT IT INTO LINE 23 REPLACING THE ENTIRITY: NUMBER. 
