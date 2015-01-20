@@ -1,0 +1,59 @@
+/*UNIVERSALS*/
+body {/*background-color:#000; background-image:url('../img/background.png');*/background-color:#050505;background-repeat:repeat;}
+a, a:hover, a:focus {color: #00b5cf;}
+.contain-main {margin: 0 auto; width: auto; text-align: center;}
+
+/*TEXT*/
+.white {color: #fff;}
+.pinkish {color:#e9a49d;}
+.green {color:#44b8a3;}
+
+/*BOXES*/
+.orange {color:#e08713;}
+.pink {color:#eaa59e;}
+
+/*SPACERS */
+.half-spacer {height: 15px;}
+.spacer {height: 30px;}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {color: #fcf5e5;text-shadow: none; /* Prevent inheritence from `body` */background-color: #00b5cf;background: opacity:0.5;border: 4px solid #eaa59e;-webkit-border-radius: 0px;-moz-border-radius: 0px;border-radius: 0px;padding: 10px; height: 60px;}
+
+input[type=email] {font-color: #fff; background-color: transparent; border:1px solid #eaa59e;-webkit-border-radius: 0px; -moz-border-radius: 0px;border-radius: 0px;padding: 30px;height: 60px;margin-right: 20px;}
+input[type=texatarea] {resize: none;font-color: #fff; background-color: #171717; background: opacity:0.5;border: 1px solid #eaa59e;-webkit-border-radius: 0px; -moz-border-radius: 0px;border-radius: 0px;padding: 30px;height: 200px;}
+
+.form-control {font-color: #fff; background-color: #171717; background: opacity:0.5;border: 1px solid #eaa59e;-webkit-border-radius: 0px; -moz-border-radius: 0px;border-radius: 0px;padding: 30px;resize: none;}
+
+/* TWITTER STYLE */
+.user, .tweet, .timePosted {
+  float:left;
+}
+
+.wrapitup {border-left: 10px solid #eaa59e; border-right: 10px solid #eaa59e;border-top: 10px solid #eaa59e; padding: 40px; margin-top: 20px; background-color: #fcf5e6; -webkit-border-top-left-radius: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-topleft: 20px;
+-moz-border-radius-topright: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;margin: 0 auto;
+max-width: 720px;}
+ul {list-style-type: none}
+li {margin-bottom: 10px;}
+
+.user {width:15%;background-color: #ff000;}
+.tweet {width:100%;text-align: left;color: #222; }
+.timePosted {width:0%;}
+.user {clear:left;margin-bottom: 20px;}
+.user a {width: 100px;}
+.user span span {width:100px;display:none;margin-top:10px;}
+.user img, .user a > span {float:left;}
+.interact {float:left;width:0%;margin-top:-7px;visibility: hidden;display: none;}
+.interact a {margin-left:0px;float:left;display:none;}
+.user a > span {margin-left:10px;display:none;}
+#linkage {position:fixed;top:0px;right:0px;background-color:#3d3d3d;color:#ffffff;text-decoration:none;padding:5px;width:10%;font-family:arial;} 
+
+/*FOOTER*/
+.footer{background-color: #eaa59e; height: 40px; width: 100%; max-width:720px; padding: 5px; margin: 0 auto;}
+.swarm{text-align: center; color: #ccc; font-family: 'Avenir Next', sans-serif; color:#fcf5e6; padding-top: 5px; }
+
