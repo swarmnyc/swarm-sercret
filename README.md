@@ -12,7 +12,7 @@ For our other experiments head to http://swarmnyc.com/expriments
 
 Deploy & tweet anonymously. 
 
-ALSO: You can set up kickback.php to auto include content in thse anon-tweets but we'd love it if you kept the twitter mention. 
+ALSO: You can set up kickback.php to auto include content in these anon-tweets but we'd love it if you kept the twitter mention.
 
 Enjoy!!!!! 
 
