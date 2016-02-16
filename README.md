@@ -2,6 +2,8 @@ SWARMsecret
 ===========================
 Your friendly neighborhood anonymous tweet web app. 
 
+/*** API Depracated, this app no longer works and needs to be updated ***/
+
 Simply connect a Twitter account through OAuth in config.php. Then create a "Feed Widget" from you account, and import the data-widget-id into pullme.php, deploy, and let anyone on the internet tweet from it anonymously. Super fun at parties. Give it a spin at http://swarmnyc.com/experiments/swarm-secret-anonymous-twitter/
 
 For our other experiments head to http://swarmnyc.com/expriments 
